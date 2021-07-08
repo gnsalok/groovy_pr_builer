@@ -2,7 +2,7 @@
     "extends": "all",
     "rules": {
         "basic.DeadCode": "error",
-        "convention.CompileStatic": "off",
+        "convention.CompileStatic": "error",
         "convention.GrailsCompileStatic": "off",
         "convention.CompileDynamic": "off",
         "convention.FieldTypeRequired": "info",
