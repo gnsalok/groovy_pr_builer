@@ -2,9 +2,9 @@
     "extends": "all",
     "rules": {
         "basic.DeadCode": "error",
-        "convention.CompileStatic": {
-            "severity": "off"
-        },
+        "convention.CompileStatic": "off",
+        "convention.GrailsCompileStatic": "off",
+        "convention.CompileDynamic": "off",
         "convention.FieldTypeRequired": "info",
         "convention.IfStatementCouldBeTernary": "info",
         "convention.NoDef": "info",
