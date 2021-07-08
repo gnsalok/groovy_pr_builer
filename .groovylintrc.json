@@ -3,7 +3,7 @@
     "rules": {
         "basic.DeadCode": "error",
         "convention.CompileStatic": {
-            "severity": "error"
+            "severity": "off"
         },
         "convention.FieldTypeRequired": "info",
         "convention.IfStatementCouldBeTernary": "info",
@@ -34,7 +34,7 @@
         "formatting.BracesForTryCatchFinally": "info",
         "formatting.Indentation": {
             "spacesPerIndentLevel": 4,
-            "severity": "error"
+            "severity": "info"
         },
         "formatting.SpaceAroundMapEntryColon": "off",
         "groovyism.ExplicitCallToEqualsMethod": "info",
