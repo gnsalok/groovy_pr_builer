@@ -1,4 +1,4 @@
-def numbers = [1, 2, 3, 4, 5, 6]
+def numbers = [1, 2, 3, 4, 5, 6
 assert 21 == numbers.sum()
 assert 31 == numbers.sum(10)
  
