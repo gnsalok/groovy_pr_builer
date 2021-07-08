@@ -1,15 +1,14 @@
 {
-    "extends": "all",
+    "extends": "recommended",
     "rules": {
         "basic.DeadCode": "error",
-        "convention.CompileStatic": "error",
+        "convention.CompileStatic": "off",
         "convention.GrailsCompileStatic": "off",
         "convention.CompileDynamic": "off",
+        "convention.FileEndsWithoutNewline": "off",
         "convention.FieldTypeRequired": "info",
         "convention.IfStatementCouldBeTernary": "info",
-        "convention.NoDef": "info",
         "convention.TrailingComma": "off",
-        "convention.VariableTypeRequired": "info",
         "dry.DuplicateListLiteral": "info",
         "dry.DuplicateMapLiteral": "warning",
         "dry.DuplicateNumberLiteral": {
@@ -37,14 +36,26 @@
             "severity": "info"
         },
         "formatting.SpaceAroundMapEntryColon": "off",
-        "groovyism.ExplicitCallToEqualsMethod": "info",
         "logging.Println": "off",
         "unused.UnusedArray": "error",
         "unused.UnusedObject": "error",
         "unused.UnusedPrivateField": "error",
         "unused.UnusedPrivateMethod": "error",
         "unused.UnusedPrivateMethodParameter": "error",
-        "unused.UnusedVariable": "error",
-        "unnecessary.UnnecessaryReturnKeyword": "off"
+        "unnecessary.UnnecessaryReturnKeyword": "off",
+        "convention.NoDef": "off",
+        "convention.VariableTypeRequired": "off",
+        "convention.MethodReturnTypeRequired": "off",
+        "groovyism.ExplicitCallToEqualsMethod": "off",
+        "groovyism.GStringExpressionWithinString": "off",
+        "naming.VariableName": "off",
+        "naming.FactoryMethodName": "off",
+        "unnecessary.UnnecessaryGetter": "off",
+        "size.NestedBlockDepth": {
+            "maxNestedBlockDepth": 10
+        },
+        "unused.UnusedVariable": {
+            "ignoreVariableNames": "_"
+        }
     }
 }
